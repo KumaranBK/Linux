@@ -1,0 +1,25 @@
+Useful linux commands
+
+1.locate = locate the file or directory
+
+sudo apt install mlocate
+
+2.File System:
+
+pwd
+
+tail -n 3 /etc/passwd ----> will print last 3 lines of passwd
+head -n 3 /etc/passwd ----> will print first 3 lines of passwd
+
+touch: to create a file
+cat: to view file content
+mv : move file
+rm: remove file name
+rm -r file name: delete the folder and subfolders
+cp: copy content from one location to another
+
+/bin, /etc, /var ---> system files can be dangerous to modify
+
+3.Grep
+
+grep is used to search inside a file
